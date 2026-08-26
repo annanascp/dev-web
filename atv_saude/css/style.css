@@ -1,0 +1,63 @@
+html{
+    font-family: 'Mulish',sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav div.sla{
+    max-width: 5vw;
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    gap: 4vw;
+}
+header nav ul li.home{
+    font-weight: 700;
+}
+section.inicio{
+    display: flex;
+    align-items: center;
+}
+section.inicio img{
+    max-width: 50%;
+}
+section.inicio div h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+section.inicio div p{
+    padding: 20px 5px 26px 5px;
+    color: gray;
+}
+section.inicio div a{
+    background-color: #458FF6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3vw;
+    color: white;
+}
+section.cuidados h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20vw 0vw 3vw;
+    border-bottom: 1px solid;display:inline-block;
+    padding: 8vw 0vw 0vw;
+    margin: 8vw 0vw;
+    margin-left: 30vw;
+    
+
+}
+section.cuidados p{
+    text-align: center;
+    color: gray;
+}
+section.cuidados ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+    margin: 2vw;
+}
