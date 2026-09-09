@@ -1,5 +1,5 @@
 html {
-  font-size: clamp(1rem, calc(0.5rem + 0.8vw), 1.625rem);
+  font-size: clamp(1rem, calc(0.5rem + 0.8vw), 4rem);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
@@ -21,7 +21,35 @@ header nav ul li.button-yellow a{
   border-radius: 5px;
   display: inline-block;
 }
-
+section.banner {
+    background: url(../images/background-banner.png) no-repeat;
+    background-size: auto 100%;
+    padding: 3vw 5vw 3vw 5vw;
+    margin: 5vw 0vw 5vw 0vw;
+}
+section.banner div.image {
+    display: none;
+}
+section.banner h2 {
+    font-size: 2rem;
+}
+section.banner p {
+    color: rgb(104, 104, 104);
+    font-size: 0.7rem;
+    margin: 14px 0 0 0;
+}
+section.banner p a {
+    background: black;
+    display: flex;
+    align-items: center;
+}
+section.banner p.buttons {
+    display: flex;
+    color: white;
+}
+section.banner p.buttons img {
+      
+}
 
 @media only screen and (min-width: 600px) {
     header nav {
